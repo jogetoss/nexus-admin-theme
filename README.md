@@ -1,3 +1,13 @@
+# Introduction
+This theme is built on top of the Xadmin theme, so it retains the same features and layout. However, the UI has been enhanced to give it a more modern and clean look. Additionally, new configuration options have been added, allowing for greater customization and flexibility:
+
+1) **Customizable  Font Size** – Users can modify the font size to improve readability and better match their design preferences.
+2) **Customizable  Border Radius** – Customize the roundness of UI elements, allowing for sharper or softer corners based on the desired aesthetic.
+3) **Primary Color Customization** – The primary color setting now controls multiple elements across the theme, ensuring a consistent look and feel.
+4) **Customizable  Sidebar Width** – Users can adjust the width of the sidebar to optimize space usage, improving usability on different screen sizes.
+# Installation
+To get started, install this theme plugin in your Joget instance.
+
 # Description
 
 This repository is meant to serve as a general template for how to set up new repositories in the JogetOSS organization. 
