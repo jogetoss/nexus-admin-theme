@@ -1,0 +1,733 @@
+*{
+    --header-backgroundcolor: #ffffff;
+    --header-color: #303133;
+    --border-color: #e4e7ed;
+}
+
+* {
+    font-family: "Geist", serif;
+}
+
+body {
+    text-align: unset;
+}
+
+.x-admin-sm .left-nav #nav li a cite,
+.x-admin-sm .layui-tab-title li,
+.x-admin-sm .layui-breadcrumb>*,
+.x-admin-sm .form-button,
+.x-admin-sm .btn,
+.x-admin-sm .button,
+.dataList th,
+.x-admin-sm body .dataList table,
+.x-admin-sm body{
+    font-size: var(--font-size);
+}
+.x-admin-sm body #form-canvas *{
+    font-size: var(--font-size);
+}
+body .container {
+    background: var(--header-backgroundcolor);
+    box-shadow: 0 1px 4px #00152914;
+}
+.container a, .layui-nav .layui-nav-item a {
+    color: var(--header-color);
+    font-weight: 500;
+}
+.container {
+    height: 64px;
+}
+.page-content,
+.left-nav{
+    top: 64px;
+}
+.container .logo a,
+.container .layui-nav-item{
+    line-height: 64px;
+}
+.left-nav #nav li a {
+    margin-top: 6px;
+}
+.container .layui-nav-more {
+    top: 34px;
+}
+.container .left_open i{
+    margin-top: 18px;
+}
+body .dataList .filters {
+    text-align: right;
+}
+body .hasDatepicker + a, body .hasDatepicker + img {
+    display: none;
+}
+body .hasDatepicker + a + .close-icon:after {
+    margin-left: 10px;
+}
+body .left-nav a:hover {
+    background: transparent !important;
+    color: var(--nav-active-link-color);
+}
+.container .logo a{
+    background: var(--nav-background);
+    color: var(--nav-active-link-color);
+}
+.container .logo a .header-name span{
+    padding-left: 15px;
+}
+.left-nav #nav li a {
+    padding: 0px;
+    display: block;
+    cursor: pointer;
+    border-left: 0px;
+    transition: all 0.3s;
+    height: 42px;
+    line-height: 1.75;
+    padding-right: 18px;
+    padding-left: 20px;
+    margin-top: 6px;
+}
+.left-nav #nav li a i.left-nav-li {
+    padding-right: 0px;
+    line-height: 14px;
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+.x-admin-sm .left-nav #nav li a cite {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 140px;
+    font-weight: 500;
+}
+.left-nav #nav li .nav_right {
+    padding-right: 0px;
+}
+.left-nav #nav li .sub-menu li a {
+    padding: 0;
+    padding-left: 48px;
+    padding-right: 18px;
+}
+.container .layui-nav-child {
+    top: 64px;
+}
+footer {
+    bottom: 0;
+    width: 100%;
+}
+.container .left_open {
+    height: 64px;
+}
+.layui-nav .layui-nav-item a:hover, .layui-nav .layui-this a {
+    color: var(--header-color);
+}
+.layui-tab-title .layui-this {
+    color: var(--primary-color);
+}
+
+body .left-nav a.active, body .left-nav a:hover,
+body .menu-link .badge,
+.inbox-notification > a > .badge{
+    background: var(--primary-color) !important;
+}
+
+body .login .message,
+body .login input[type=submit],
+body .login input[type=button], 
+.form-button, .button, .layui-btn,
+body .dataList span.pagelinks strong{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.x-admin-sm .layui-tab-title li {
+    background-color: #fff;
+    margin-right: 6px;
+    padding: 5px 8px 8px;
+    line-height: unset;
+    border-radius: var(--border-radius);
+    margin-bottom: 6px;
+}
+.page-content .layui-tab-title .layui-this:after,
+body .page-content .layui-tab-title{
+    border: 0;
+    margin: 5px;
+}
+.x-nav {
+    margin: 0px;
+    border-bottom: 0;
+}
+.page-content .layui-tab-content {
+    margin-top: 6px !important;
+}
+.page-content .layui-tab-bar {
+    height: 31px;
+    line-height: 28px;
+}
+.x-admin-sm .layui-nav .gravatar{
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.inbox-notification > a > .badge {
+    padding: 5px 5px;
+    border-radius: 2px;
+    top: 13px;
+    left: 25px;
+    height: 8px;
+    line-height: 8px;
+    font-size: 10px;
+    position: absolute;
+}
+.container .layui-nav-more {
+    border-color: var(--header-color) transparent transparent;
+}
+main [class*="-body-content"],
+main > [class*="_body"],
+main > .ui-html{
+    padding: 0px;
+    box-shadow: none;
+    background: transparent;
+}
+main .main-body-content,
+main > [class*="_body"],
+main > .ui-html{
+    border-radius: var(--border-radius);
+    background-color: #fff;
+    padding: 16px;
+    line-height: 24px;
+    margin-bottom: 16px;
+}
+body .page-content .layui-tab-title {
+    background: transparent;
+}
+.viewForm-body-content,
+body #form-canvas #section-actions,
+body #form-canvas #section-actions .form-column{
+    background-color: transparent !important;
+}
+.main-body-content.Run_Process_Menu,
+.main-body-content.Form_Menu,
+.main-body-content.CRUD_Menu:has(.viewForm-body-content){
+    padding: 0px;
+    background: transparent;
+}
+body .form fieldset,
+body #form-canvas .form-container .form-section {
+    background-color: #ffffff; 
+    border: 0px;
+    border-radius: var(--border-radius);
+}
+body .form fieldset.has-legend legend,
+body #form-canvas .form-section-title span,
+body #form-canvas .subform-section-title span {
+    background-color: #ffffff;
+    padding: 18px 20px;
+    height: unset;
+    line-height: unset;
+    border-radius: var(--border-radius) var(--border-radius) 0px 0px;
+    border-bottom: 1px solid var(--border-color);
+}
+body #form-canvas .subform-section-title span {
+    border-bottom: 1px solid var(--border-color) !important;
+    border-radius: 25px 25px 0px 0px;
+}
+body #form-canvas .form-column, body #form-canvas .subform-column {
+    padding: 0 20px;
+    border-radius: var(--border-radius);
+}
+body #form-canvas .subform-column {
+    border-radius: 25px;
+}
+.form-section-title span, .subform-section-title span {
+    margin-bottom: 20px;
+    width: 100%;
+}
+body #form-canvas .label-top .label {
+    padding-top: 0px;
+}
+body .form .form-row > label,
+body #form-canvas .form-cell .label,
+body #form-canvas .subform-cell .label {
+    max-width: unset;
+}
+body #form-canvas .form-cell.full_width_field .label,
+body #form-canvas .subform-cell.full_width_field .label{
+    text-align: left;
+}
+body input:not([type]),
+body input[type=text],
+body input[type=password],
+body input[type=email],
+body input[type=url],
+body input[type=time],
+body input[type=date],
+body input[type=datetime],
+body input[type=datetime-local],
+body input[type=tel],
+body input[type=number],
+body input[type=search],
+body textarea,
+body select:not([class^=ui]),
+body .editor-cell input:not([type]),
+body .editor-cell input[type=text],
+body .editor-cell input[type=password],
+body .editor-cell input[type=email],
+body .editor-cell input[type=url],
+body .editor-cell input[type=time],
+body .editor-cell input[type=date],
+body .editor-cell input[type=datetime],
+body .editor-cell input[type=datetime-local], 
+body .editor-cell input[type=tel], 
+body .editor-cell input[type=number], 
+body .editor-cell input[type=search], 
+body .editor-cell textarea, 
+body .editor-cell select:not([class^=ui]){
+    border-radius: var(--border-radius);
+    border-color: var(--border-color);
+}
+
+.ql-toolbar.ql-snow,
+.ql-container.ql-snow{
+    border-color: var(--border-color) !important;
+}
+
+body input:not([type]):hover,
+body input[type=text]:hover,
+body input[type=password]:hover,
+body input[type=email]:hover,
+body input[type=url]:hover,
+body input[type=time]:hover,
+body input[type=date]:hover,
+body input[type=datetime]:hover,
+body input[type=datetime-local]:hover,
+body input[type=tel]:hover,
+body input[type=number]:hover,
+body input[type=search]:hover,
+body textarea:hover,
+body select:not([class^=ui]):hover,
+body .editor-cell input:not([type]):hover,
+body .editor-cell input[type=text]:hover,
+body .editor-cell input[type=password]:hover,
+body .editor-cell input[type=email]:hover,
+body .editor-cell input[type=url]:hover,
+body .editor-cell input[type=time]:hover,
+body .editor-cell input[type=date]:hover,
+body .editor-cell input[type=datetime]:hover,
+body .editor-cell input[type=datetime-local]:hover, 
+body .editor-cell input[type=tel]:hover, 
+body .editor-cell input[type=number]:hover, 
+body .editor-cell input[type=search]:hover, 
+body .editor-cell textarea:hover, 
+body .editor-cell select:not([class^=ui]):hover{
+    border-color: var(--primary-color);
+}
+body input:not([type]):focus:not([readonly]),
+body input[type=text]:focus:not([readonly]),
+body input[type=password]:focus:not([readonly]),
+body input[type=email]:focus:not([readonly]),
+body input[type=url]:focus:not([readonly]),
+body input[type=time]:focus:not([readonly]),
+body input[type=date]:focus:not([readonly]),
+body input[type=datetime]:focus:not([readonly]),
+body input[type=datetime-local]:focus:not([readonly]),
+body input[type=tel]:focus:not([readonly]),
+body input[type=number]:focus:not([readonly]),
+body input[type=search]:focus:not([readonly]),
+body textarea:focus:not([readonly]),
+body select:focus:not([readonly]):not([class^=ui]),
+body input.focus, body .editor-cell input:not([type]):focus:not([readonly]),
+body .editor-cell input[type=text]:focus:not([readonly]),
+body .editor-cell input[type=password]:focus:not([readonly]),
+body .editor-cell input[type=email]:focus:not([readonly]),
+body .editor-cell input[type=url]:focus:not([readonly]),
+body .editor-cell input[type=time]:focus:not([readonly]),
+body .editor-cell input[type=date]:focus:not([readonly]),
+body .editor-cell input[type=datetime]:focus:not([readonly]),
+body .editor-cell input[type=datetime-local]:focus:not([readonly]),
+body .editor-cell input[type=tel]:focus:not([readonly]),
+body .editor-cell input[type=number]:focus:not([readonly]),
+body .editor-cell input[type=search]:focus:not([readonly]),
+body .editor-cell textarea:focus:not([readonly]),
+body .editor-cell select:focus:not([readonly]):not([class^=ui]),
+body .editor-cell input.focus, body .dropzone:active, 
+body select:not([class^="ui-"]):focus, 
+body .editor-cell select:not([class^="ui-"]):focus,
+body .chosen-container-multi.chosen-container-active .chosen-choices,
+body .sigPad .pad:hover, body .layui-form-checked,
+body .layui-form-checked:hover,
+body .layui-form-checkbox[lay-skin=primary]:hover i,
+body .layui-form-checked[lay-skin=primary] i, 
+body .layui-form-onswitch,
+body .ql-container.ql-bubble.focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 .25rem var(--primary-color3);
+}
+body .select_checkbox label > [type="checkbox"]:checked + i,
+body label > input[type=checkbox]:checked + i, 
+.chosen-container .chosen-results li.highlighted,
+body .layui-progress-bar, body .layui-form-select dl dd.layui-this,
+body .layui-form-checked span, body .layui-form-checked:hover span,
+body .layui-form-checked[lay-skin=primary] i, body .layui-form-onswitch,
+body .layui-nav .layui-this:after, body .layui-nav-bar,
+body .layui-nav-tree .layui-nav-itemed:after,
+body .layui-nav .layui-nav-child dd.layui-this a,
+body .layui-nav-child dd.layui-this, body #form-canvas .page-button-panel .button,
+body #form-canvas .selector_element .selector_button, .inbox-notification > a > .badge {
+    border-radius: var(--border-radius);
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+#content .chosen-container ol, #content .chosen-container ul {
+    border-radius: var(--border-radius);
+}
+body .select_radio label > input[type="radio"] + i:after, body label > input[type="radio"] + i:after{
+    color: var(--border-color);
+}
+body #form-canvas #section-actions .form-column,
+body #form-canvas #section-actions .subform-column {
+    padding: 0px;
+}
+.form-button, .btn:not(.btn-link), .button {
+    padding: 9px 15px;
+    border-radius: var(--border-radius);
+}
+input[type=checkbox], input[type=radio]{
+    visibility: hidden;
+    margin-right: 10px !important;
+}
+body input[type=checkbox]:before,
+body input[type=radio]:before {
+    content: "";
+    display: block;
+    width: 16px;
+    height: 16px;
+    top: -0.1rem;
+    left: 0;
+    border: 1px solid var(--border-color);
+    background-color: transparent;
+    padding: 1px;
+    visibility: visible;
+    border-radius: 0px;
+    position: relative;
+}
+body input[type=checkbox]:checked::before{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+body input[type=radio]:checked::before {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+}
+body input[type=checkbox]:checked::after,
+body input[type=radio]:checked::after {
+    content: "";
+    display: block;
+    width: 0.4rem;
+    height: 0.8rem;
+    border: solid #fff;
+    border-width: 0 0.2rem 0.2rem 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    position: relative;
+    top: -1.3rem;
+    left: 0.45rem;
+    visibility: visible;
+}
+body input[type=radio]:before {
+    border-radius: 45%;
+}
+body input[type=radio]:checked::after {
+    width: 0.65rem;
+    height: 0.65rem;
+    border: 0.35rem solid #fff;
+    top: -16px;
+    left: 5px;
+    border-radius: 55%;
+    background-color: #fff;
+}
+body td.select_radio input[type=radio]:checked::after {
+    top: -17px;
+}
+
+body td.select_checkbox input[type=checkbox]:checked::after{
+    left: 0.45rem;
+}
+body .select_checkbox label > [type="checkbox"] + i:after, body label > input[type=checkbox] + i:after {
+    left: 1.5px;
+    top: 1px;
+}
+
+body .select_radio label > input[type="radio"] + i:after, body label > input[type="radio"] + i:after {
+    font-size: 18px;
+    margin-right: 5px;
+}
+body .dataList .pagelinks a,
+body .dataList .pagelinks strong,
+body .dataList .pagelinks > span {
+    border-radius: var(--border-radius);
+    padding: 3px 4px;
+    width: auto;
+    min-width: 28px;
+    height: 28px;
+    margin-left: 8px;
+    border-color: var(--border-color);
+}
+body .dataList .pagelinks .pc.first-disabled{
+    margin-left: 0;
+}
+body .dataList .actions.top:after {
+    content: "";
+    border-bottom: 0px;
+}
+body .dataList .actions.bottom:before {
+    content: "";
+    border-top: 0px;
+}
+body .dataList th, body .dataList td {
+    padding: 12px !important;
+}
+body .dataList .select_checkbox {
+    width: 60px;
+}
+body .dataList th {
+    background: #fafafc;
+}
+body .dataList table, body .dataList th, body .dataList td {
+    border-color: var(--border-color);
+}
+body .dropzone .dz-message {
+    color: #909399;
+    margin: 5px 0;
+}
+body .dropzone {
+    border: 1px dashed var(--border-color);
+    padding: 20px 10px !important;
+    background-color: #fafafa;
+    border-radius: var(--border-radius);
+}
+body .dropzone:hover {
+    border-color: var(--primary-color);
+}
+.btn.btn-danger, .btn.btn-outline-danger{
+    color: #fff !important;
+    background-color: #f56c6c !important;
+    border-color: #f56c6c !important;
+}
+.x-admin-sm .layui-btn {
+    border-radius: var(--border-radius);
+}
+.form-button + .form-button, .btn + .btn, .button + .button {
+    margin-left: 6px;
+}
+.accordion {
+    border: 0px !important;
+}
+.accordion>.card>.card-header {
+    border-radius: var(--border-radius);
+    text-align: left;
+    border-bottom: 1px solid var(--border-color);
+}
+.card {
+    border-color: var(--border-color);
+    border-radius: var(--border-radius);
+}
+.rounded-left {
+    border-top-left-radius: var(--border-radius) !important;
+    border-bottom-left-radius: var(--border-radius) !important;
+}
+.card-header {
+    background-color: #fafafc;
+}
+.list-group-item {
+    border-color: var(--border-color);
+}
+.print-button {
+    float: right;
+}
+.mpf-container .subform-section{
+    border: 1px solid var(--border-color);
+    border-radius: 25px;
+}
+.mpf-container .subform-section:hover {
+    box-shadow: 0 1px 2px -2px rgba(0, 0, 0, .08), 0 3px 6px 0 rgba(0, 0, 0, .06), 0 5px 12px 4px rgba(0, 0, 0, .04);
+}
+.runProcess-body-header {
+    font-weight: 500;
+    padding: 0px;
+    padding-bottom: 5px;
+}
+.page a {
+    display: unset;
+    background: transparent;
+    color: unset;
+    padding: unset;
+    min-width: unset;
+    border: unset;
+}
+body #form-canvas .page-button-panel .button {
+    padding: 9px 15px;
+    border-radius: var(--border-radius);
+}
+.multiPagedForm .page-button-panel {
+    text-align: right;
+    margin: 20px 0px;
+}
+.runProcess-body-header {
+    font-weight: 500 !important;
+    padding: 0px !important;
+    padding-bottom: 5px !important;
+}
+.grid-action-edit span,
+.grid-action-delete span,
+.grid-action-moveup span,
+.grid-action-movedown span,
+.grid-action-add span {
+    display: none !important;
+}
+.multiPagedForm.tab .page-nav-panel {
+    border-bottom: 2px solid var(--border-color);
+    margin-bottom: 5px;
+}
+body .grid tr:hover td {
+    background: #f2f2f2;
+}
+.layui-col-space15>* {
+    padding: 0;
+}
+body #form-canvas .grid table.tablesaw th {
+    background: #fafafc;
+}
+body #form-canvas .grid table.tablesaw,
+body #form-canvas .grid table.tablesaw th,
+body #form-canvas .grid table.tablesaw td {
+    border: 1px solid var(--border-color);
+}
+.table-bordered td, .table-bordered th {
+    border: 1px solid var(--border-color);
+}
+td.fc-daygrid-day, .fc-col-header-cell, .fc-timegrid-col {
+    border: 1px solid var(--border-color) !important;
+}
+body .page-content .layui-tab-title.layui-tab-more {
+    background: var(--background);
+}
+#content .grid-stack-item .grid-stack-item-content {
+    border: 0px !important;
+    box-shadow: none;
+}
+.grid-stack-item .grid-stack-item-header {
+    padding: 25px 16px !important;
+}
+#content .grid-stack-item .grid-stack-item-header h4 {
+    font-size: 16px;
+    color: var(--header-color);
+    font-weight: 500 !important;
+    line-height: 0;
+}
+body .dashboard_menu .grid-stack-item .grid-stack-item-header {
+    border-bottom: 1px solid var(--border-color);
+}
+#content .grid-stack-item-header-action {
+    opacity: 1;
+    top: 8px;
+    margin-right: 15px;
+    height: 32px;
+    width: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: var(--primary-color2);
+    color: var(--primary-color);
+    border-radius: 50%;
+}
+body .dashboard_menu .grid-stack-item-header-action {
+    right: 0px;
+}
+body .dashboard_menu .grid-stack-item-header-refresh {
+    right: 35px;
+}
+.left-nav {
+    width: var(--sidebarWidth);
+    max-width: unset;
+}
+#side-nav {
+    width: var(--sidebarWidth);
+}
+.page-content {
+    left: var(--sidebarWidth);
+}
+.container .logo a {
+    width: calc(var(--sidebarWidth) - 5px);
+}
+body #form-canvas .form-message.form-success {
+    border-left: 5px solid #18a058;
+    color: #18a058;
+    background-color: rgba(24, 160, 88, 0.1);
+}
+body.has-logo .container > .left_open, body.has-logo .container > .layui-nav {
+    margin-top: 10px;
+}
+body.has-logo .container {
+    height: 64px;
+}
+body.has-logo .container > .left_open, body.has-logo .container > .layui-nav {
+    margin-top: 0px;
+}
+body.has-logo img.logo {
+    height: 50px;
+    margin-top: 0px;
+}
+body.has-logo .page-content,
+body.has-logo .left-nav{
+    top: 64px;
+}
+.container .logo a {
+    padding-left: 5px;
+}
+.page-content-bg {
+    left: var(--sidebarWidth);
+    top: 64px;
+}
+.dataList.size_sm > form > .table-wrapper > table.responsivetable > tbody > tr,
+.dataList.size_sm > .table-wrapper > table.responsivetable > tbody > tr {
+    border-color: var(--border-color);
+}
+@media (max-width: 767px) {
+    .multiPagedForm .page-container {
+        border: 0px;
+    }
+    .multiPagedForm.wizard .page-nav-panel .nav_item button,
+    .multiPagedForm.tab .page-nav-panel .nav_item button,
+    .rtl .multiPagedForm.wizard .page-nav-panel .nav_item button,
+    .rtl .multiPagedForm.tab .page-nav-panel .nav_item button {
+        border-color: var(--border-color);
+    }
+}
+
+.transparent-mode body .container,
+.transparent-mode footer{
+    background: transparent;
+    box-shadow: none;
+}
+
+.transparent-mode body .left-nav a {
+    color: #333639;
+    background: transparent;
+}
+
+.transparent-mode body .left-nav,
+.transparent-mode .x-nav {
+    background: #fff9;
+}
+
+.transparent-mode .container .logo a{
+    background: #fff9;
+    color: var(--primary-color);
+}   
+
+.transparent-mode body .left-nav a.active,
+.transparent-mode body .left-nav a:hover{
+    background: var(--primary-color2) !important;
+    color: var(--primary-color);
+}
