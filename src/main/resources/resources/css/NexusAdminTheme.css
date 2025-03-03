@@ -94,10 +94,11 @@ body .left-nav a:hover {
     margin-right: 8px;
 }
 .x-admin-sm .left-nav #nav li a cite {
+    max-width: 90%;
+    width: var(--sidebarWidth);
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-    width: 140px;
     font-weight: 500;
 }
 .left-nav #nav li .nav_right {
@@ -147,6 +148,8 @@ body .dataList span.pagelinks strong{
     line-height: unset;
     border-radius: var(--border-radius);
     margin-bottom: 6px;
+    font-size: clamp(12px, var(--font-size), 20px);
+    max-height: 1em;
 }
 .page-content .layui-tab-title .layui-this:after,
 body .page-content .layui-tab-title{
