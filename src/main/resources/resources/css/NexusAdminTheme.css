@@ -21,10 +21,10 @@ body {
 .dataList th,
 .x-admin-sm body .dataList table,
 .x-admin-sm body{
-    font-size: var(--font-size);
+    font-size: min(var(--font-size), 20px);
 }
 .x-admin-sm body #form-canvas *{
-    font-size: var(--font-size);
+    font-size: min(var(--font-size), 20px);
 }
 body .container {
     background: var(--header-backgroundcolor);
@@ -108,6 +108,7 @@ body .left-nav a:hover {
     padding: 0;
     padding-left: 48px;
     padding-right: 18px;
+    overflow-y: hidden;
 }
 .container .layui-nav-child {
     top: 64px;
@@ -148,7 +149,7 @@ body .dataList span.pagelinks strong{
     line-height: unset;
     border-radius: var(--border-radius);
     margin-bottom: 6px;
-    font-size: clamp(12px, var(--font-size), 20px);
+    font-size: min(var(--font-size), 20px);
     max-height: 1em;
 }
 .page-content .layui-tab-title .layui-this:after,
@@ -499,6 +500,7 @@ body .dataList th {
 }
 body .dataList table, body .dataList th, body .dataList td {
     border-color: var(--border-color);
+    line-height: min(var(--font-size), 20px);
 }
 body .dropzone .dz-message {
     color: #909399;
@@ -733,4 +735,11 @@ body.has-logo .left-nav{
 .transparent-mode body .left-nav a:hover{
     background: var(--primary-color2) !important;
     color: var(--primary-color);
+}
+/* RTL CSS */
+body.rtl .page-content{
+    right: var(--sidebarWidth);
+}
+body.rtl #page > div.container > div.logo {
+    width: var(--sidebarWidth);
 }
